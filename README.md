@@ -1,7 +1,3 @@
-Aqui está um modelo de **README.md** para o projeto baseado no seu código de análise de vendas das lojas da *Alura Store*. Esse modelo segue boas práticas de documentação para projetos de ciência de dados no GitHub:
-
----
-
 # 📊 Análise de Vendas - Alura Store
 
 Este projeto tem como objetivo analisar os dados de vendas de quatro lojas da **Alura Store**, utilizando Python e bibliotecas como **Pandas** e **Matplotlib**. A análise inclui métricas de faturamento, categorias de produtos mais vendidos, avaliações de clientes e custos de frete.
@@ -87,10 +83,3 @@ Calculamos o valor médio do frete pago pelos clientes em cada loja.
 
 ---
 
-## 📬 Contato
-
-Para dúvidas, sugestões ou colaborações, entre em contato via [seu e-mail ou GitHub].
-
----
-
-Quer que eu gere esse `README.md` como arquivo ou deseja personalizar mais algum trecho?
