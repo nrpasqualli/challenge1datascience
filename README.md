@@ -1,27 +1,96 @@
-# challenge1datascience
-Descrição
-Editar
-Boas vindas ao primeiro desafio!
-Durante este desafio, você irá ajudar o Senhor João a decidir qual loja da sua rede Alura Store vender para iniciar um novo empreendimento. Para isso, você analisará dados de vendas, desempenho e avaliações das 4 lojas fictícias da Alura Store. O objetivo é identificar a loja com menor eficiência e apresentar uma recomendação final baseada nos dados.
+Aqui está um modelo de **README.md** para o projeto baseado no seu código de análise de vendas das lojas da *Alura Store*. Esse modelo segue boas práticas de documentação para projetos de ciência de dados no GitHub:
 
-O que você vai praticar:
-Carregar e manipular dados CSV com a biblioteca Pandas .
+---
 
-Criar visualizações de dados com biblioteca Matplotlib.
+# 📊 Análise de Vendas - Alura Store
 
-Analisar métricas como faturamento, avaliações e desempenho de vendas.
+Este projeto tem como objetivo analisar os dados de vendas de quatro lojas da **Alura Store**, utilizando Python e bibliotecas como **Pandas** e **Matplotlib**. A análise inclui métricas de faturamento, categorias de produtos mais vendidos, avaliações de clientes e custos de frete.
 
-Requisitos:
-Analisar os dados das lojas:
+---
 
-Você deve avaliar informações como faturamento, categorias mais vendidas, avaliações dos clientes, produtos mais vendidos e frete médio.
+## 🗂️ Dados Utilizados
 
-Criar gráficos para visualização:
+Os dados foram obtidos diretamente do GitHub da Alura:
 
-Decida quais tipos de gráficos usar para apresentar os resultados de maneira clara e visual.
+- [`loja_1.csv`](https://raw.githubusercontent.com/alura-es-cursos/challenge1-data-science/refs/heads/main/base-de-dados-challenge-1/loja_1.csv)
+- [`loja_2.csv`](https://raw.githubusercontent.com/alura-es-cursos/challenge1-data-science/refs/heads/main/base-de-dados-challenge-1/loja_2.csv)
+- [`loja_3.csv`](https://raw.githubusercontent.com/alura-es-cursos/challenge1-data-science/refs/heads/main/base-de-dados-challenge-1/loja_3.csv)
+- [`loja_4.csv`](https://raw.githubusercontent.com/alura-es-cursos/challenge1-data-science/refs/heads/main/base-de-dados-challenge-1/loja_4.csv)
 
-Mínimo de 3 gráficos diferentes, que podem incluir gráficos de barras, pizza, dispersão, entre outros.
+Cada arquivo contém informações como:
 
-Apresentar uma recomendação:
+- Produto
+- Categoria do produto
+- Preço
+- Frete
+- Data da compra
+- Vendedor
+- Local da compra
+- Avaliação
+- Tipo de pagamento
+- Coordenadas (latitude e longitude)
 
-Após as análises, escreva um texto explicando qual loja o Senhor João deve vender e por quê, com base nos dados apresentados.
+---
+
+## ✅ Etapas da Análise
+
+### 1. 📈 Faturamento por Loja
+
+Foi calculado o faturamento total de cada unidade da Alura Store. Os valores foram apresentados numericamente e visualizados em um gráfico de barras.
+
+### 2. 🛍️ Vendas por Categoria
+
+Contabilizamos o número de vendas por categoria de produto em cada loja. Também foram gerados gráficos de pizza para visualização percentual.
+
+### 3. 🌟 Média de Avaliações
+
+Analisamos a média de avaliação dos clientes para cada loja, com base na coluna `Avaliação da compra`.
+
+### 4. 📦 Produtos Mais e Menos Vendidos
+
+Realizamos uma contagem agregada por categoria e loja, comparando o desempenho de cada tipo de produto entre as lojas. O resultado foi exibido em um gráfico de barras horizontal.
+
+### 5. 🚚 Custo Médio de Frete
+
+Calculamos o valor médio do frete pago pelos clientes em cada loja.
+
+---
+
+## 📊 Exemplos de Visualizações
+
+- Faturamento por loja (gráfico de barras)
+- Distribuição das vendas por categoria (gráficos de pizza)
+- Comparação de categorias entre lojas (gráfico de barras horizontal)
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+- Python 3.x
+- Pandas
+- Matplotlib
+- Jupyter Notebook (recomendado para execução)
+
+---
+
+## 📌 Como Executar
+
+1. Clone este repositório:
+   ```bash
+   git clone https://github.com/seu-usuario/seu-repositorio.git
+   ```
+2. Instale as dependências:
+   ```bash
+   pip install pandas matplotlib
+   ```
+3. Execute o notebook ou script `.py`.
+
+---
+
+## 📬 Contato
+
+Para dúvidas, sugestões ou colaborações, entre em contato via [seu e-mail ou GitHub].
+
+---
+
+Quer que eu gere esse `README.md` como arquivo ou deseja personalizar mais algum trecho?
